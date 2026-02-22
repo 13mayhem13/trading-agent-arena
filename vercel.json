@@ -16,9 +16,5 @@
       "src": "/(.*)",
       "dest": "/$1"
     }
-  ],
-  "env": {
-    "ALPACA_API_KEY": "@alpaca-api-key",
-    "ALPACA_API_SECRET": "@alpaca-api-secret"
-  }
+  ]
 }
