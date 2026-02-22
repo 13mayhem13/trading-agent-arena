@@ -1,0 +1,16 @@
+{
+  "name": "trading-agent-arena",
+  "version": "1.0.0",
+  "description": "Trading Agent Arena Dashboard",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.html dist/ && cp -r assets dist/ 2>/dev/null || true",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
+}
